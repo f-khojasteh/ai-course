@@ -1,0 +1,33 @@
+# Maven output and local database files
+/target/
+/data/
+*.class
+*.jar
+*.mv.db
+*.h2.db
+*.trace.db
+*.lock.db
+*.temp.db
+
+# Private local configuration, credentials, and captures
+.env
+.env.*
+/config/
+/application-local.yml
+/application-local.yaml
+/credentials/
+/secrets/
+/token-captures/
+*.key
+*.pem
+*.p12
+*.pfx
+*.log
+
+# Editor and operating-system temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
